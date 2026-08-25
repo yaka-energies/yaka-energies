@@ -175,8 +175,8 @@ a{ color:inherit; }
 .btn-ghost{ border-color:var(--line-dark); color:#fff; background:transparent; }
 .btn-ghost:hover{ border-color:var(--orange); color:var(--orange); }
 
-/* ---------- chain diagram (signature element) ---------- */
-.chain-section{ padding:80px 0 100px; background:var(--panel); }
+/* ---------- missions diagram (signature element) ---------- */
+.missions-section{ padding:80px 0 100px; background:var(--panel); }
 .section-lead{ max-width:620px; }
 
 .chain-diagram{
