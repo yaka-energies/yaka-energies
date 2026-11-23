@@ -30,6 +30,6 @@ form.addEventListener('submit', (e) => {
   const subject = encodeURIComponent(`Nouveau message de ${name} — site Yaka Energies`);
   const body = encodeURIComponent(`${message}\n\n---\nNom: ${name}\nEmail: ${email}`);
 
-  window.location.href = `mailto:contact@yaka-energies.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:contact@yaka-energies.fr?subject=${subject}&body=${body}`;
   formNote.textContent = "Votre messagerie s'est ouverte avec le message pré-rempli.";
 });
