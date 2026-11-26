@@ -618,3 +618,15 @@ a:focus-visible, button:focus-visible{
 .other-services .wrap{ position:relative; z-index:1; }
 .other-services .eyebrow{ color:var(--orange); margin-bottom:18px; }
 .other-btns{ display:flex; flex-wrap:wrap; gap:10px; }
+
+/* ---------- section contact : fond vert pleine largeur ---------- */
+.contact{ background:var(--green); padding:56px 0; }
+.contact .eyebrow{ color:var(--navy); }
+.contact h2{ color:#04170B; }
+.contact .section-lead{ color:#0B2A12; }
+.contact-list{ border-top-color:rgba(4,23,11,0.25); }
+.contact-list li{ border-bottom-color:rgba(4,23,11,0.25); }
+.contact-list li span{ color:#0B2A12; }
+.contact-list li a, .contact-list li b{ color:#04170B; font-weight:600; }
+.contact-cta{ background:#fff; border-color:rgba(4,23,11,0.15); }
+.contact-cta::before{ border-color:var(--navy); }
